@@ -1,6 +1,6 @@
 import './NavBar.css'
 
-function NavBar() {
+function NavBar(){
     return (
         <ul>
             <li><a href= "#"> ciao </a></li>
