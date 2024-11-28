@@ -1,5 +1,5 @@
 import './NavBar.css'
-const x = 150;
+const x = '|-------------------------------------|';
 const img = '/vite.svg'
 // creazione constanti 
 
