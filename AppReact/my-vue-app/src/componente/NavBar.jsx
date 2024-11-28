@@ -1,6 +1,6 @@
 import './NavBar.css'
 const x = 150;
-const img = '/assets/react.svg'
+const img = '/vite.svg'
 // creazione constanti 
 
 function NavBar(){
