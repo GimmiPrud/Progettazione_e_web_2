@@ -7,7 +7,7 @@ function NavBar(){
     return (
         <>
         <nav>{x}</nav>  
-        <img src ={img}></img>
+        <img src ={img} height={200} ></img>
         <ul>
             <li><a href= "#"> ciao </a></li>
             <li><a href= "#"> ciao </a></li>
