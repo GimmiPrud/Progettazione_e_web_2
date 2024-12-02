@@ -5,6 +5,8 @@ import './App.css'
 import NavBar from './componente/NavBar.jsx'
 import Link from './componente/Link.jsx'
 
+
+
 function App() {
   const [count, setCount] = useState(0)
 
