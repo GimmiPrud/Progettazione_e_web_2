@@ -12,6 +12,7 @@ function App() {
       <div>
         <Card 
         imma = "CI SIAMO QUASI"
+        M = "================"
         ></Card>
         <Card></Card>
         <Card></Card>

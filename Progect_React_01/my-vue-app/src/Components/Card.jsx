@@ -7,7 +7,7 @@ function Card(props) {
 
     return(
         <div>
-            <img src= {M}/>
+            <p>{M}</p>
             <p>
                 <h2>-- {Titolo} --</h2>
                 <h1>BUON ANNO !!</h1>
