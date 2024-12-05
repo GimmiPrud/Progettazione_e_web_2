@@ -4,6 +4,11 @@ function Card(props) {
     const M = props.M
     const i = props.i
     const imma = props.imma
+    const is_visit = props.is_visit
+
+    if (is_visit == true) {
+        return null;
+    }
 
     return(
         <div>
@@ -14,6 +19,7 @@ function Card(props) {
             </p>
             <img src= {i}/>
             <p>{imma}</p>
+            <span> visitato</span>
         </div>
     )
 }
