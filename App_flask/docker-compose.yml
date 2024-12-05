@@ -22,4 +22,4 @@ services:
         DATABASE_PASSWORD: user_password
         DATABASE_NAME: my_database
         ports:
-            "8000:8000" # Modifica la porta in base alla tua applicazione
+          "8000:8000" # Modifica la porta in base alla tua applicazione
