@@ -7,7 +7,7 @@ function Card(props) {
     const is_visit = props.is_visit
 
     if (is_visit == true) {
-        return null;
+        return is_visit;
     }
 
     return(
@@ -20,6 +20,7 @@ function Card(props) {
             <img src= {i}/>
             <p>{imma}</p>
             <span> visitato</span>
+            {is_visit && <span> non visitato</span>}
         </div>
     )
 }

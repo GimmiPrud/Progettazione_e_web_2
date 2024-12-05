@@ -11,17 +11,14 @@ function App() {
     <>
       <div>
         <Card 
-        is_visit = {false}
         imma = "CI SIAMO QUASI"
         i = "https://images.unsplash.com/photo-1730172233418-e23596ad0511?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D"
         M = "================"
         ></Card>
         <Card
-        is_visit = {true}
         imma = "Ciaoooo"
          i = "https://images.unsplash.com/photo-1731978009363-21fa723e2cbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8 "
         ></Card>
-        <Card></Card>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
