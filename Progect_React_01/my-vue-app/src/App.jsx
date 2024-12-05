@@ -10,7 +10,9 @@ function App() {
   return (
     <>
       <div>
-        <Card></Card>
+        <Card 
+        imma = "CI SIAMO QUASI"
+        ></Card>
         <Card></Card>
         <Card></Card>
         <a href="https://vite.dev" target="_blank">
