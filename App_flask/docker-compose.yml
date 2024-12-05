@@ -16,10 +16,5 @@ services:
       image: "app.py" # Sostituisci con l'immagine della tua applicazione
       restart: always
       depends_on: db
-      environment:
-        DATABASE_HOST: db
-        DATABASE_USER: user
-        DATABASE_PASSWORD: user_password
-        DATABASE_NAME: my_database
-        ports:
-          "5001:5001" # Modifica la porta in base alla tua applicazione
+      ports:
+        "5001:5001" # Modifica la porta in base alla tua applicazione
