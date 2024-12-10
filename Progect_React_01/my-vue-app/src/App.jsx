@@ -17,7 +17,7 @@ function App() {
     {
       id:1,
       name:"Roma",
-      desc: "Roma è una b ella città",
+      desc: "Roma è una bella città",
       imgURL:"https://images.unsplash.com/photo-1542820229-081e0c12af0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvbWV8ZW58MHx8MHx8fDA%3D",
       is_visit : false
     },
@@ -42,13 +42,13 @@ function App() {
       </Card>
 
     ))}
-    {/* {
-    cities.filter((city) =>(
+    
+    {/* {cities.filter((city) => city.is_visit).map((city) =>(
       <Card key = {city.id}
         titolo = {city.name}
         imgURL = {city.imgURL}
         is_visit = {city.is_visit} 
-      > {city.desc}
+        desc=   {city.desc} >
       </Card>
     ))} */}
     
