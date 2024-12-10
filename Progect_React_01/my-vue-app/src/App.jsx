@@ -103,7 +103,7 @@ function App() {
         </p>
         <input type="text" onChange={handler} />
         <form onSubmit={handlersubmit}>
-          <button>
+          <button color='yellow'>
             Submit
           </button>
         </form>
