@@ -32,21 +32,26 @@ function App() {
 
   return (
     <>
+    {
+    cities.map((city) =>(
+      <Card key = {city.id}
+        titolo = {city.name}
+        imgURL = {city.imgURL}
+        is_visit = {city.is_visit} 
+      > {city.desc}
+      </Card>
+      
+    ))}
       <div>
-        {
-          cities.map((city) =>(
-            <Card key = {city.id}
-              titolo = {city.name}
-              imgURL = {city.imgURL}
-              is_visit = {city.is_visit} 
-            > {city.desc}
-            </Card>
-            
-          ))}
+        <Card
+        imma = {cities[2].name}
+        i = {cities[2].imgURL}
+        M = {cities[2].desc}
+        ></Card>
         <Card 
-        imma = "CI SIAMO QUASI"
-        i = "https://images.unsplash.com/photo-1730172233418-e23596ad0511?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D"
-        M = "================"
+        imma = {cities[1].name}
+        i = {cities[1].imgURL}
+        M = {cities[1].desc}
         ></Card>
         <Card
         imma = "Ciaoooo"

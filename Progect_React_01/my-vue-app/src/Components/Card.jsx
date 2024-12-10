@@ -15,7 +15,6 @@ function Card(props) {
             <p>{M}</p>
             <p>
                 <h2>-- {Titolo} --</h2>
-                <h1>BUON ANNO !!</h1>
             </p>
             <img src= {i}/>
             <p>{imma}</p>
