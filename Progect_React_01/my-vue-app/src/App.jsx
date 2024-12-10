@@ -6,10 +6,43 @@ import Card from './Components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
+  const cities = [
+    {
+      id:0,
+      name:"Tokyo",
+      desc:"Tokyo è una bella città",
+      imgURL:"https://images.unsplash.com/photo-1536768139911-e290a59011e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dG9reW98ZW58MHx8MHx8fDA%3D",
+      is_visit:true,
+    },
+    {
+      id:1,
+      name:"Roma",
+      desc: "Roma è una b ella città",
+      imgURL:"https://images.unsplash.com/photo-1542820229-081e0c12af0b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJvbWV8ZW58MHx8MHx8fDA%3D",
+      is_visit : false
+    },
+    {
+      id:1,
+      name:"London",
+      desc:"Londra è una bella città",
+      imgURL:"https://plus.unsplash.com/premium_photo-1671734045770-4b9e1a5e53a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bG9uZG9ufGVufDB8fDB8fHww",
+      is_visit: true
+    }
+  ]
 
   return (
     <>
       <div>
+        {
+          cities.map((city) =>(
+            <Card key = {city.id}
+              titolo = {city.name}
+              imgURL = {city.imgURL}
+              is_visit = {city.is_visit} 
+            > {city.desc}
+            </Card>
+            
+          ))}
         <Card 
         imma = "CI SIAMO QUASI"
         i = "https://images.unsplash.com/photo-1730172233418-e23596ad0511?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D"
