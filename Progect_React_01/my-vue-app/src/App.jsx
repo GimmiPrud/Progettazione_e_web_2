@@ -12,6 +12,11 @@ function handler(e){
   console.log(e.target.value)
 }
 
+function handlersubmit(a){
+  a.prevenDefault()
+  console.log(a)
+}
+
 function App() {
   const [count, setCount] = useState(0)
   const cities = [
@@ -96,7 +101,12 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-        <input type="text" onChange={(handler)} />
+        <input type="text" onChange={handler} />
+        <form onSubmit={handlersubmit}>
+          <button>
+            Submit
+          </button>
+        </form>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
