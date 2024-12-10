@@ -40,8 +40,18 @@ function App() {
         is_visit = {city.is_visit} 
       > {city.desc}
       </Card>
-      
+
     ))}
+    {/* {
+    cities.filter((city) =>(
+      <Card key = {city.id}
+        titolo = {city.name}
+        imgURL = {city.imgURL}
+        is_visit = {city.is_visit} 
+      > {city.desc}
+      </Card>
+    ))} */}
+    
       <div>
         <Card
         imma = {cities[2].name}
