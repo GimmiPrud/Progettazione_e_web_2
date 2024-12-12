@@ -99,6 +99,7 @@ function App() {
         <button onClick={() => alert("BROCCOLO")}>
           Clicca qui
         </button>
+        <Todolist></Todolist>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
@@ -112,7 +113,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Todolist></Todolist>
     </>
   )
 }
