@@ -5,6 +5,7 @@ import './App.css'
 import Card from './Components/Card'
 import Todolist from './Components/state/Todolist'
 import UserProfile from './Components/state/user_profile'
+import Parent from './Components/state/Parent'
 
 function alertClick(){
   alert ("AIAIAIAIAIAIAI")
@@ -98,6 +99,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Parent></Parent>
         <button onClick={() => alert("BROCCOLO")}>
           Clicca qui
         </button>
