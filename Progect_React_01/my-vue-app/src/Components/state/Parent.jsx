@@ -14,7 +14,7 @@ function Parent(){
         <div>
             <h1>Messaggio dal child: {message}</h1>
             {/* Passa la funzione handleMessage come prop al child */}
-            <Child OnMessage={handleMessage} />
+            <Child onMessage={handleMessage} />
         </div>
     );
 };

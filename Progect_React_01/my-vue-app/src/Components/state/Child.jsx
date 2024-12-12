@@ -1,9 +1,9 @@
 import React from "react";
 
-function Child(OnMessage) {
-    const sendMessageToParent = () =>{
+function Child({onMessage}) {
+    const sendMessageToParent = () => {
         //invia il messaggio al parent tramite la funzione OnMessage
-        OnMessage('Ciao dal componente child')
+        onMessage('Ciao dal componente child');
     };
 
     return (
@@ -12,6 +12,6 @@ function Child(OnMessage) {
                 Invia messaggio al Parent
             </button>
         </div>
-    )
-}
+    );
+};
 export default Child
