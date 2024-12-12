@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Components/Card'
 import Todolist from './Components/state/Todolist'
+import UserProfile from './Components/state/user_profile'
 
 function alertClick(){
   alert ("AIAIAIAIAIAIAI")
@@ -88,6 +89,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
+      <UserProfile></UserProfile>
       <button onClick={(alertClick)}>
         RV
         </button>
