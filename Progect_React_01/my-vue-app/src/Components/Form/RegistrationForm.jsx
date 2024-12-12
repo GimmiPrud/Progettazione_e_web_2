@@ -17,7 +17,7 @@ function  RegistrationForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(Nome: ${formData.name}, Email: ${formData.email}, Password: ${formData.password});
+    alert('Nome: ${formData.name}, Email: ${formData.email}, Password: ${formData.password}');
   };
 
   return (

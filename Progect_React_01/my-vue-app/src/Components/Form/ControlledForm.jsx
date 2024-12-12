@@ -9,7 +9,7 @@ function ControlledForm()  {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(Nome inviato: ${name});
+    alert('Nome inviato: ${name}');
   };
 
   return (
