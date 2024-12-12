@@ -6,6 +6,7 @@ import Card from './Components/Card'
 import Todolist from './Components/state/Todolist'
 import UserProfile from './Components/state/user_profile'
 import Parent from './Components/state/Parent'
+import Parent_1 from './Components/state/Parent_1'
 
 function alertClick(){
   alert ("AIAIAIAIAIAIAI")
