@@ -1,14 +1,15 @@
 .table{
-    border-collapse: collapse "centre";
-    border: 3px solid black;
-    align-items: center;
+    border-collapse: collapse ;
+    border: 1px solid black;
 
 }
 
 .tt{
     border: 2px solid black;
     padding: 1px;
-    align-items: center;
     width: 1%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  
 
 }
