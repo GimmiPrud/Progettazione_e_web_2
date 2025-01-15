@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Tabless from '../components/Tabless';
 
 const Axios = () => {
   const [users, setUsers] = useState([]);
@@ -24,10 +25,17 @@ const Axios = () => {
 
   return (
     <div>
-      <h1>Elenco Utenti</h1>
+      <h1 className='font'>ELENCO PROGETTI:</h1>
       <ul>
         {users.map((user) => (
-            <li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
+          //<li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
+          <Tabless key={user.id}
+          c1={user.progetto}
+          c2={user.nome}
+          c3={user.inizio}
+          c4={user.fine}>
+          </Tabless>
+
         ))}
       </ul>
     </div>
