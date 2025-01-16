@@ -9,12 +9,11 @@ function App() {
     <>
       <div>
         <Axios></Axios>
-      </div>
-      <div>
+      {/* <div>
         <Persona></Persona>
       </div>
       <div>
-        <Assenza></Assenza>
+        <Assenza></Assenza> */}
       </div>
     </>
   )

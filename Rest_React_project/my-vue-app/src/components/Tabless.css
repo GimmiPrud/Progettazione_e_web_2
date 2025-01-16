@@ -1,15 +1,8 @@
+
 .table{
+    border: 1px solid black;
+    width: 100%;
     border-collapse: collapse ;
-    border: 1px solid black;
-
-}
-
-.tt{
-    border: 2px solid black;
-    padding: 1px;
-    width: 1%;
-    border-collapse: collapse;
-    border: 1px solid black;
-  
+    
 
 }
