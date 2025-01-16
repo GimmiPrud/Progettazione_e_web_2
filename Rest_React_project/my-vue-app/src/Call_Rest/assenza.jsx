@@ -30,15 +30,15 @@ const Assenza = () => {
         <table className='table'>
         <thead>
         <tr>
-            <th >ID</th>
-            <th  >ID Persona</th>
-            <th >Tipo malattia</th>
-            <th >Giorno Assenza</th>
+            <th>ID</th>
+            <th>ID Persona</th>
+            <th>Tipo malattia</th>
+            <th>Giorno Assenza</th>
         </tr>
         </thead>
         {users.map((user) => (
-            //<li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
-            <Tabless key={user.id}
+          //<li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
+          <Tabless key={user.id}
           c0={user.id}
           c1={user.persona}
           c2={user.tipo}

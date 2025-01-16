@@ -38,14 +38,14 @@ const Persona = () => {
         </tr>
         </thead>
         {users.map((user) => (
-            //<li key={user.id}>{user.nome} - {user.cognome} - {user.posizione} - {user.stipendio}</li>
-            <Tabless key={user.id}
-            c0={user.id}
-            c1={user.nome}
-            c2={user.cognome}
-            c3={user.posizione}
-            c4={user.stipendio}>
-            </Tabless>
+          //<li key={user.id}>{user.nome} - {user.cognome} - {user.posizione} - {user.stipendio}</li>
+          <Tabless key={user.id}
+          c0={user.id}
+          c1={user.nome}
+          c2={user.cognome}
+          c3={user.posizione}
+          c4={user.stipendio}>
+          </Tabless>
         ))}
         </table>
       </ul>
