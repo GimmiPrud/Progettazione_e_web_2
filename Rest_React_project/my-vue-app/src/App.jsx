@@ -7,11 +7,6 @@ function App() {
 
   return (
     <>
-    
-    <head>
-
-    </head>
-  
     <div>
       <Axios></Axios>
     </div>
