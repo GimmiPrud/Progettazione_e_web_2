@@ -10,8 +10,8 @@ function Tabless({ c0 ,c1 , c2 , c3, c4 }){
             <th className='tt'>ID</th>
             <th className='tt'>ID Progetto</th>
             <th className='tt'>Nome WP</th>
-            <th className='tt'>Inizio</th>
-            <th className='tt'>Fine</th>
+            <th className='tt'>Inizio Progetto</th>
+            <th className='tt'>Fine Progetto</th>
         </tr>
         </thead>
         <tbody>
