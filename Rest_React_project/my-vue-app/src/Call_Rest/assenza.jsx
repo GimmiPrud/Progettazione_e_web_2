@@ -30,10 +30,10 @@ const Assenza = () => {
         <table className='table'>
         <thead>
         <tr>
-            <th className='th'>ID</th>
-            <th className='th' >ID Persona</th>
-            <th className='th'>Tipo malattia</th>
-            <th className='th'>Giorno Assenza</th>
+            <th >ID</th>
+            <th  >ID Persona</th>
+            <th >Tipo malattia</th>
+            <th >Giorno Assenza</th>
         </tr>
         </thead>
         {users.map((user) => (

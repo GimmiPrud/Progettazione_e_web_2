@@ -30,11 +30,11 @@ const Persona = () => {
       <table className='table'>
         <thead>
         <tr>
-            <th className='th'>ID</th>
-            <th className='th' >Nome</th>
-            <th className='th'>Cognome</th>
-            <th className='th'>Posizione</th>
-            <th className='th'>Stipendio</th>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Posizione</th>
+            <th>Stipendio</th>
         </tr>
         </thead>
         {users.map((user) => (
