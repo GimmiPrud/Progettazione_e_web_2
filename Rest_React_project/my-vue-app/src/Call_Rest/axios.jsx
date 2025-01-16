@@ -27,22 +27,27 @@ const Axios = () => {
     <div>
       <h1 className='font'>ELENCO PROGETTI:</h1>
       <ul>
+      <table className='table'>
+      <thead>
+        <tr>
+            <th className='th'>ID</th>
+            <th className='th' >ID Progetto</th>
+            <th className='th'>Nome WP</th>
+            <th className='th'>Inizio Progetto</th>
+            <th className='th'>Fine Progetto</th>
+        </tr>
+        </thead>
         {users.map((user) => (
           //<li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
           <Tabless key={user.id}
-          t1={"ID"}
-          t2={"ID Progetto"}
-          t3={"Nome WP"}
-          t4={"Inizio Progetto"}
-          t5={"Fine Progetto"}
           c0={user.id}
           c1={user.progetto}
           c2={user.nome}
           c3={user.inizio}
           c4={user.fine}>
           </Tabless>
-
         ))}
+      </table>
       </ul>
     </div>
   );

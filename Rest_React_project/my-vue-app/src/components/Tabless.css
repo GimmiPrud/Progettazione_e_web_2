@@ -3,6 +3,11 @@
     border: 1px solid black;
     width: 100%;
     border-collapse: collapse ;
-    
+    border-width: 1px;
+    display:inline-table;
+}
 
+.th{
+ 
+    border-collapse: collapse;
 }
