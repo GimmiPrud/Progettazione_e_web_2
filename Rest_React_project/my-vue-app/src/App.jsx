@@ -7,16 +7,19 @@ function App() {
 
   return (
     <>
-      <div>
-        <Axios></Axios>
-      {/* <div>
-        <Persona></Persona>
-      </div>
-      <div>
-        <Assenza></Assenza> */}
-      </div>
-    </>
+    
+    <div>
+      <Axios></Axios>
+    </div>
+    <div>
+      <Persona></Persona>
+    </div>
+    <div>
+      <Assenza></Assenza>
+    </div>
+
+  </>
   )
 }
 
-export default App
+export default App;

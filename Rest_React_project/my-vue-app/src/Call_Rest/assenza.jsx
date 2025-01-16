@@ -27,19 +27,25 @@ const Assenza = () => {
     <div>
       <h1 className='font'>CERTIFICATI DI MALATTIA</h1>
       <ul>
+        <table className='table'>
+        <thead>
+        <tr>
+            <th className='th'>ID</th>
+            <th className='th' >ID Persona</th>
+            <th className='th'>Tipo malattia</th>
+            <th className='th'>Giorno Assenza</th>
+        </tr>
+        </thead>
         {users.map((user) => (
             //<li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
             <Tabless key={user.id}
-          t1={"ID"}
-          t2={"ID Persona"}
-          t3={"Tipo Malattia"}
-          t4={"Giorno Assenza"}
           c0={user.id}
           c1={user.persona}
           c2={user.tipo}
           c3={user.giorno}>
           </Tabless>
         ))}
+        </table>
       </ul>
     </div>
   );

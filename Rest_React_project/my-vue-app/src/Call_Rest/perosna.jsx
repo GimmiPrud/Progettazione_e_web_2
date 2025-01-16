@@ -27,14 +27,19 @@ const Persona = () => {
     <div>
       <h1 className='font'>ANAGRAFICA DIPENDENTE</h1>
       <ul>
+      <table className='table'>
+        <thead>
+        <tr>
+            <th className='th'>ID</th>
+            <th className='th' >Nome</th>
+            <th className='th'>Cognome</th>
+            <th className='th'>Posizione</th>
+            <th className='th'>Stipendio</th>
+        </tr>
+        </thead>
         {users.map((user) => (
             //<li key={user.id}>{user.nome} - {user.cognome} - {user.posizione} - {user.stipendio}</li>
             <Tabless key={user.id}
-            t1={"ID"}
-            t2={"Nome"}
-            t3={"Cognome"}
-            t4={"Posizione"}
-            t5={"Stipendio"}
             c0={user.id}
             c1={user.nome}
             c2={user.cognome}
@@ -42,6 +47,7 @@ const Persona = () => {
             c4={user.stipendio}>
             </Tabless>
         ))}
+        </table>
       </ul>
     </div>
   );
