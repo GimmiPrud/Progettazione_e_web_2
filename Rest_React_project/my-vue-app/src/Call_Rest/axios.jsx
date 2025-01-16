@@ -30,6 +30,11 @@ const Axios = () => {
         {users.map((user) => (
           //<li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
           <Tabless key={user.id}
+          t1={"ID"}
+          t2={"ID Progetto"}
+          t3={"Nome WP"}
+          t4={"Inizio Progetto"}
+          t5={"Fine Progetto"}
           c0={user.id}
           c1={user.progetto}
           c2={user.nome}

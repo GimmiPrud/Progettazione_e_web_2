@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Tabless from '../components/Tabless';
 
 const Assenza = () => {
   const [users, setUsers] = useState([]);
@@ -24,10 +25,20 @@ const Assenza = () => {
 
   return (
     <div>
-      <h1>Elenco Utenti</h1>
+      <h1 className='font'>CERTIFICATI DI MALATTIA</h1>
       <ul>
         {users.map((user) => (
-            <li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
+            //<li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
+            <Tabless key={user.id}
+          t1={"ID"}
+          t2={"ID Persona"}
+          t3={"Tipo Malattia"}
+          t4={"Giorno Assenza"}
+          c0={user.id}
+          c1={user.persona}
+          c2={user.tipo}
+          c3={user.giorno}>
+          </Tabless>
         ))}
       </ul>
     </div>
