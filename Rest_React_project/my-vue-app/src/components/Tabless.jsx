@@ -7,11 +7,11 @@ function Tabless({ c0 ,c1 , c2 , c3, c4 }){
         <>
         <tbody>
         <tr>
-            <td >{c0}</td>        
-            <td >{c1}</td>
-            <td >{c2}</td>
-            <td>{c3}</td>
-            { c4 ? <td>{c4}</td> : null}
+            <td className='th'>{c0}</td>        
+            <td className='th'>{c1}</td>
+            <td className='th'>{c2}</td>
+            <td className='th'>{c3}</td>
+            { c4 ? <td className='th'>{c4}</td> : null}
         </tr>
         </tbody>
         </>

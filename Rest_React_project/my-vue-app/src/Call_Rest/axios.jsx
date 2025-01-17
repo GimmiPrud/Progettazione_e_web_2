@@ -30,11 +30,11 @@ const Axios = () => {
       <table className='table'>
       <thead>
         <tr>
-            <th>ID</th>
-            <th>ID Progetto</th>
-            <th>Nome WP</th>
-            <th>Inizio Progetto</th>
-            <th>Fine Progetto</th>
+            <th className='td'>ID</th>
+            <th className='td'>ID Progetto</th>
+            <th className='td'>Nome WP</th>
+            <th className='td'>Inizio Progetto</th>
+            <th className='td'>Fine Progetto</th>
         </tr>
         </thead>
         {users.map((user) => (

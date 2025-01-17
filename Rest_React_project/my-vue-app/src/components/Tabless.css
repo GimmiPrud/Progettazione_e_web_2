@@ -1,13 +1,24 @@
 
 .table{
-    border: 1px solid black;
+    border: 2px solid black;
     width: 100%;
     border-collapse: collapse ;
-    border-width: 1px;
+    border-width: 2px;
     display:inline-table;
 }
 
 .th{
- 
-    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: color-mix(in srgb, yellow 10%, blue 20%);
+    color: lightcyan;
+    font-family: Impact'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+.td{
+    border: 2px solid black;
+    background-color:color-mix(in srgb, brown 20%, blue 10%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: lightcyan;
 }
