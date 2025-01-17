@@ -8,9 +8,6 @@ function App() {
 
   return (
     <>
-    <body>
-      <Homepage></Homepage>
-    </body>
 
     </>
   )
