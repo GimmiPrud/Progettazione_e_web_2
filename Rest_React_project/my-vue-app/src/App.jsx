@@ -2,22 +2,17 @@ import './App.css'
 import Axios from './Call_Rest/axios'
 import Persona from './Call_Rest/perosna'
 import Assenza from './Call_Rest/assenza'
+import Homepage from './Home_Page/homepage'
 
 function App() {
 
   return (
     <>
-    <div>
-      <Axios></Axios>
-    </div>
-    <div>
-      <Persona></Persona>
-    </div>
-    <div>
-      <Assenza></Assenza>
-    </div>
+    <body>
+      <Homepage></Homepage>
+    </body>
 
-  </>
+    </>
   )
 }
 
