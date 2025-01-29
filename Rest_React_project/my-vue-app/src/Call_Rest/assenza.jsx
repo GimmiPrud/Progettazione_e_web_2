@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import Tabless from '../components/Tabless';
 
 const Assenza = () => {
   const [users, setUsers] = useState([]);
