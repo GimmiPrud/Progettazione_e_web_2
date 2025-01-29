@@ -1,14 +1,12 @@
 import { useState } from 'react'
 // import './App.css'
-import Nav from './Components/Nav'
+import Navb from './Components/Nav'
 
 function App() {
 
   return (
-    <>
-    <head>
-      <Nav></Nav>
-    </head>
+    <> 
+      <Navb></Navb>
     </>
   )
 }
