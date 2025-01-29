@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav>
             <ul>
-                <li>merda</li>
+                <li></li>
                 <li></li>
                 <li></li>
             </ul>
