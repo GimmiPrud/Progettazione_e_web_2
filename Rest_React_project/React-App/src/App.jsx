@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Nav from './Components/Nav'
+import Navb from './Components/Nav'
 
 function App() {
 
   return (
     <>
     <section>
-      <Nav></Nav>
+      <Navb></Navb>
     </section>
     </>
   )
