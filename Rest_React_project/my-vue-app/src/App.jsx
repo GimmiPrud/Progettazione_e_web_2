@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-    <section>
+    <head>
       <Navbar></Navbar>
-    </section>
+    </head>
     </>
   )
 }
