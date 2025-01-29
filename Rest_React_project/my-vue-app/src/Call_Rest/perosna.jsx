@@ -36,7 +36,7 @@ const Persona = () => {
             <th className='td'>Stipendio</th>
         </tr>
         </thead>
-        {users.map((user) => (
+        {/* {users.map((user) => (
           //<li key={user.id}>{user.nome} - {user.cognome} - {user.posizione} - {user.stipendio}</li>
           <Tabless key={user.id}
           c0={user.id}
@@ -45,7 +45,7 @@ const Persona = () => {
           c3={user.posizione}
           c4={user.stipendio}>
           </Tabless>
-        ))}
+        ))} */}
         </table>
       </ul>
     </div>

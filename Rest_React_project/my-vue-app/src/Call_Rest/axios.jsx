@@ -36,7 +36,7 @@ const Axios = () => {
             <th className='td'>Fine Progetto</th>
         </tr>
         </thead>
-        {users.map((user) => (
+        {/* {users.map((user) => (
           //<li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
           <Tabless key={user.id}
           c0={user.id}
@@ -45,7 +45,7 @@ const Axios = () => {
           c3={user.inizio}
           c4={user.fine}>
           </Tabless>
-        ))}
+        ))} */}
       </table>
       </ul>
     </div>

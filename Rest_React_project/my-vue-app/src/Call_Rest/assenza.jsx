@@ -35,7 +35,7 @@ const Assenza = () => {
             <th className='td'>Giorno Assenza</th>
         </tr>
         </thead>
-        {users.map((user) => (
+        {/* {users.map((user) => (
           //<li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
           <Tabless key={user.id}
           c0={user.id}
@@ -43,7 +43,7 @@ const Assenza = () => {
           c2={user.tipo}
           c3={user.giorno}>
           </Tabless>
-        ))}
+        ))} */}
         </table>
       </ul>
     </div>
