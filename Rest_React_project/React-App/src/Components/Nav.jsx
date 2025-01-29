@@ -7,10 +7,20 @@ function Navb() {
     <body>
         <nav className='menu'>
             <ul style={{fontFamily:"monospace"}}>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Elenco tabelle</a></li>
-                <li><a href="#">Chi Siamo</a></li>
-                <li><a href="#">Contatti</a></li>
+                <li>
+                    <button>
+                    <a href="#">Home</a>
+                    </button>
+                </li>
+                <li>
+                    <a href="#">Elenco tabelle</a>
+                </li>
+                <li>
+                    <a href="#">Chi Siamo</a>
+                </li>
+                <li>
+                    <a href="#">Contatti</a>
+                </li>
             </ul>
         </nav>
     </body>
