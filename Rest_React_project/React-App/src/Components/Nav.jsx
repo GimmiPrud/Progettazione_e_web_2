@@ -8,12 +8,14 @@ function Navb() {
         <nav className='menu'>
             <ul style={{fontFamily:"monospace"}}>
                 <li>
-                    <button>
+                    <button className='button'>
                     <a href="#">Home</a>
                     </button>
                 </li>
                 <li>
+                    <button>
                     <a href="#">Elenco tabelle</a>
+                    </button>
                 </li>
                 <li>
                     <a href="#">Chi Siamo</a>
