@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <section>
-      
+      <Nav></Nav>
     </section>
     </>
   )
