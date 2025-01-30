@@ -37,13 +37,14 @@ button {
   text-align: center;
   border-radius: 4px;
   background-color: #5ca1e1;
+  border-radius: 5%;
   border: none;
   color: #fff;
   padding: 15px;
   width: 10pc;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 40px 1pc 3cap;
+  margin: 40px 1pc 2pc 2pc;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
   font-size: medium;
 }
@@ -56,12 +57,13 @@ button{
 }
 
 button:after {
-  content: '🔎';
+  content: '⬇️';
   position: absolute;
   opacity: 0;  
   top: 10px;
   right: 2px;
   transition: 0.5s;
+  size: 10pc;
 }
 
 button:hover{

@@ -19,11 +19,6 @@ function Navb() {
                 </li>
                 <li>
                     <button>
-                    <a href="#">Chi Siamo</a>
-                    </button>
-                </li>
-                <li>
-                    <button>
                     <a href="#">Contatti</a>
                     </button>
                 </li>
