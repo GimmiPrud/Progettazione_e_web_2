@@ -3,17 +3,14 @@
   list-style: none;
   padding: 0;
   margin: 2pc;
-  background-color:lightskyblue;
+  background-color:darkgray;
   border-radius: 5pc;
-  border-style:hidden;
-  box-shadow: 10%;
 
 }
 
 .menu ul li {
-  display:inline-flex;
+  display: inline-flex;
   font-size:large;
-
 }
 
 .menu ul li a {
@@ -21,21 +18,11 @@
   text-decoration: none;
 }
 
-/* .menu ul li .submenu li {
-  display: block;
-} */
-
-/* .img-cont{
-  height: 100pc;
-  background-image: url(''); 
-  background-size:cover;
-  background-attachment:scroll;
-} */
 
 button {
   text-align: center;
   border-radius: 6px;
-  background-color: #5ca1e1;
+  background-color: lightgray;
   border-radius: 5%;
   border: none;
   color: #fff;
@@ -74,3 +61,11 @@ button:hover:after {
   opacity: 1;
   right: 8px;
 }
+
+.img_c{
+  border-radius: 15px;
+  height: 25pc;
+  padding-left: 66%;
+  display: flex; 
+}
+
