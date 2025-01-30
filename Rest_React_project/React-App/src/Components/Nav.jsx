@@ -5,7 +5,7 @@ function Navb() {
 
     return (
     <body>
-        <nav className='menu'>
+        <nav className='menu' style={{marginLeft:"25%", marginBlock:"5pc", marginRight:"25%"}}>
             <ul>
                 <li>
                     <button>
