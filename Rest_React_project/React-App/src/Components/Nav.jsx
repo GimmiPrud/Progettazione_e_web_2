@@ -14,7 +14,7 @@ function Navb() {
                 </li>
                 <li>
                     <button>
-                    <a href="#">Elenco tabelle</a>
+                    <a href="#">Database</a>
                     </button>
                 </li>
                 <li>
