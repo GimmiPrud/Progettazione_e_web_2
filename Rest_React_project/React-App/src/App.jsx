@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-    <body>
+    <div>
       <Navb></Navb>
       <Content_box></Content_box>
-    </body>
+    </div>
     </>
   )
 }
