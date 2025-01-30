@@ -6,9 +6,9 @@ function Navb() {
     return (
     <body>
         <nav className='menu'>
-            <ul style={{fontFamily:"monospace"}}>
+            <ul>
                 <li>
-                    <button className='button'>
+                    <button>
                     <a href="#">Home</a>
                     </button>
                 </li>
@@ -19,8 +19,13 @@ function Navb() {
                 </li>
                 <li>
                     <button>
-                    <a href="#">Contatti</a>
+                    <a href="#">Contact</a>
                     </button>
+                </li>
+                <li style={{paddingLeft:"8cap"}}>
+                    <span title='About'>
+                    <a style={{fontSize:"2pc"}} href="#">📑</a>
+                    </span>
                 </li>
             </ul>
         </nav>
