@@ -63,9 +63,44 @@ button:hover:after {
 }
 
 .img_c{
-  border-radius: 15px;
-  height: 25pc;
-  padding-left: 66%;
-  display: flex; 
+  height: 26pc;
+  right: 10px;
+  background-size: contain;
+  display:inline-flex;
 }
+
+/*----------------------------*/
+
+body {
+  background: #f2f4f8;
+  display: flex;
+  font-family: "Open Sans";
+}
+.container {
+  display: flex;
+}
+.card {
+  width: 330px;
+  height: 500px;
+  border-radius: 40px;
+  transition: all 0.2s ease-out;
+  margin-left: 6pc;
+  background-color: gainsboro;
+
+}
+
+.card:hover {
+  transform: translateY(-25px) scale(1.005) translateZ(0);
+}
+
+.img_card{
+  background-size: 15px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 380px;
+  width: 330px;
+}
+
+
+
 
