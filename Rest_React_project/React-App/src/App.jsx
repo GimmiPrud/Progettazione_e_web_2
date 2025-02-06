@@ -17,8 +17,14 @@ function App() {
         <Card title = {"Problem Solving"} img = {"https://images.unsplash.com/photo-1611329857530-61d261e393e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHByb2JsZW0lMjBzb2x2aW5nfGVufDB8fDB8fHww"}></Card>
         <Card title = {"Cloud Computing"} img = {"https://images.unsplash.com/photo-1690627931320-16ac56eb2588?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM4fHxjbG91ZCUyMGNvbXB1dGluZ3xlbnwwfHwwfHx8MA%3D%3D"}></Card>
       </section>
-      <section style={{padding:"10pc" }}>
-
+      <section style={{padding:"5pc", display:"inline-flex"}}>
+        <h1 style={{paddingLeft:"10pc", color:"lightgrey"}}>Le nostre sedi:</h1>
+        <ul style={{listStyleType:"circle",color:"lightgrey", paddingTop:"2pc"}}>
+          <li><h2>Milano</h2></li>
+          <li><h2>Roma</h2></li>
+          <li><h2>Perugia</h2></li>
+          <li><h2>Singapore</h2></li>
+        </ul>
       </section>
     </div>
     </>

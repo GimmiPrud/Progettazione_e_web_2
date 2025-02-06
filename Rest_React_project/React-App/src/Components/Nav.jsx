@@ -1,6 +1,5 @@
 
 import React from 'react';
-
 function Navb() {
     
     return (
@@ -23,7 +22,7 @@ function Navb() {
                 </li>
                 <li style={{paddingLeft:"8cap"}}>
                     <span title='About'>
-                    <a style={{fontSize:"2.5pc"}} href="#">📑</a>
+                    <a style={{fontSize:"3.5pc"}} href="#">🖧</a>
                     </span>
                 </li>
             </ul>
