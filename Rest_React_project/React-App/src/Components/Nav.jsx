@@ -7,17 +7,17 @@ function Navb() {
             <ul>
                 <li>
                     <button>
-                    <a href="#">Home</a>
+                    <a href="#">Clienti</a>
                     </button>
                 </li>
                 <li>
                     <button>
-                    <a href="#">Database</a>
+                    <a href="#">Assenze</a>
                     </button>
                 </li>
                 <li>
                     <button>
-                    <a href="#">Contact</a>
+                    <a href="#">Progetti</a>
                     </button>
                 </li>
                 <li style={{paddingLeft:"8cap"}}>
