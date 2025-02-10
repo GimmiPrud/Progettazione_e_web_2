@@ -3,6 +3,9 @@ import './App.css'
 import Navb from './Components/Nav'
 import Content_box from './Components/Content_box'
 import Card from './Components/Card'
+import instagram_logo from './assets/instagram_logo.png';
+import linkedin_logo from "./assets/linkedin_logo.png"
+
 
 function App() {
 
@@ -25,8 +28,17 @@ function App() {
           <li><h2>Perugia</h2></li>
           <li><h2>Singapore</h2></li>
         </ul>
-        <h1 style={{paddingLeft:"50pc"}}>Seguici su</h1>
-        <img style={{height:"8pc", width:"6pc"}} src="" alt="Instagram" />
+      </section>
+      <section style={{display:"inline-flex"}}>
+      <h1 style={{paddingLeft:"48pc"}}>Seguici su:</h1>
+        <ul style={{listStyle:"none"}}>
+          <li>
+          <img style={{height:"4.5pc", width:"5pc", paddingTop:"5pc"}} src={instagram_logo} alt="Instagram" />
+          </li>
+          <li>
+          <img style={{height:"4.5pc", width:"5pc", paddingTop:"1pc"}} src={linkedin_logo} alt="Linkedin" />
+          </li>
+        </ul>
       </section>
     </div>
     </>
