@@ -25,6 +25,8 @@ function App() {
           <li><h2>Perugia</h2></li>
           <li><h2>Singapore</h2></li>
         </ul>
+        <h1 style={{paddingLeft:"50pc"}}>Seguici su</h1>
+        <img style={{height:"8pc", width:"6pc"}} src="" alt="Instagram" />
       </section>
     </div>
     </>
