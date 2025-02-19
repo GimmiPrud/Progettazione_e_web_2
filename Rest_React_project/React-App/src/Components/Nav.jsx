@@ -1,12 +1,11 @@
 
 function Navb() {
-    
     return (
         <nav className='menu' style={{marginLeft:"25%", marginBlock:"3pc", marginRight:"25%"}}>
             <ul>
                 <li>
                     <button>
-                    <a href='./Call_Rest/perosna'>Dipendenti</a>
+                    <a href="#">Dipendenti</a>
                     </button>
                 </li>
                 <li>
