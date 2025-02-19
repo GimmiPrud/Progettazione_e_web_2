@@ -7,7 +7,7 @@ function Navb() {
             <ul>
                 <li>
                     <button>
-                    <a href="#">Clienti</a>
+                    <a href="#">Dipendenti</a>
                     </button>
                 </li>
                 <li>
