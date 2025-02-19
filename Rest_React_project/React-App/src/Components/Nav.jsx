@@ -1,5 +1,4 @@
-import Persona from '../Call_Rest/perosna';
-import React from 'react';
+
 function Navb() {
     
     return (
@@ -7,7 +6,7 @@ function Navb() {
             <ul>
                 <li>
                     <button>
-                    <a href="#">Dipendenti</a>
+                    <a href='./Call_Rest/perosna'>Dipendenti</a>
                     </button>
                 </li>
                 <li>

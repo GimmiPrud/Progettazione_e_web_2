@@ -5,6 +5,9 @@ import Content_box from './Components/Content_box'
 import Card from './Components/Card'
 import instagram_logo from './assets/instagram_logo.png';
 import linkedin_logo from "./assets/linkedin_logo.png"
+import Persona from './Call_Rest/perosna'
+import Assenza from './Call_Rest/assenza'
+import axios from 'axios'
 
 
 function App() {
