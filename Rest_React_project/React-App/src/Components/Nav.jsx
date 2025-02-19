@@ -1,5 +1,6 @@
 
 function Navb() {
+
     return (
         <nav className='menu' style={{marginLeft:"25%", marginBlock:"3pc", marginRight:"25%"}}>
             <ul>
