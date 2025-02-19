@@ -1,4 +1,4 @@
-
+import Persona from '../Call_Rest/perosna';
 import React from 'react';
 function Navb() {
     
