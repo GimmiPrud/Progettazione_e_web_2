@@ -23,11 +23,9 @@ const Persona = () => {
   if (error) return <p>Errore: {error}</p>;
 
   return (
-    <div>
-      <h1 className='font'>ANAGRAFICA DIPENDENTE</h1>
-      <ul>
-      <table className='table'>
-        <thead>
+    <>
+      <h1 className='font'>ANAGRAFICA DIPENDENTE:</h1>
+      <table>
         <tr>
             <th className='td'>ID</th>
             <th className='td'>Nome</th>
@@ -35,20 +33,18 @@ const Persona = () => {
             <th className='td'>Posizione</th>
             <th className='td'>Stipendio</th>
         </tr>
-        </thead>
-        {/* {users.map((user) => (
+        {users.map((user) => (
           //<li key={user.id}>{user.nome} - {user.cognome} - {user.posizione} - {user.stipendio}</li>
-          <Tabless key={user.id}
-          c0={user.id}
-          c1={user.nome}
-          c2={user.cognome}
-          c3={user.posizione}
-          c4={user.stipendio}>
-          </Tabless>
-        ))} */}
+          <tr key={user.id}>
+            <td>{user.id}</td>
+            <td>{user.nome}</td>
+            <td>{user.cognome}</td>
+            <td>{user.posizione}</td>
+            <td>{user.stipendio}</td> 
+          </tr>
+        ))}
         </table>
-      </ul>
-    </div>
+  </>
   );
 };
 

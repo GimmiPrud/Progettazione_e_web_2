@@ -16,11 +16,13 @@ function App() {
     <>
     <div>
       <Navb></Navb>
+      <div style={{alignItems:"center" ,textAlign:"center", paddingBottom:"5pc"}}>
       <Routes>
         <Route path='/dipendenti' element={<Persona></Persona>}></Route>
         <Route path='/assenze' element={<Assenza></Assenza>}></Route>
         <Route path='/progetti' element={<Axios></Axios>}></Route>
       </Routes>
+      </div>
       <Content_box></Content_box>
       <section style={{backgroundColor:"grey", padding:"6pc", display:"flex"}}>
         <Card title={"Gestione Database"} img ={"https://images.unsplash.com/photo-1659974708151-e90f42518dd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGRhdGFiYXNlfGVufDB8fDB8fHww"}></Card>
