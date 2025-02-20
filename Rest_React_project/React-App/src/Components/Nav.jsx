@@ -1,23 +1,29 @@
+// import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 
 function Navb() {
+    const navigate = useNavigate()
 
     return (
         <div className="navbar">
             <ul>
+                <NavLink to="/dipendenti">
                 <li>
-                    Dipendenti
+                    <button>Dipendenti</button>
                 </li>
+                </NavLink>
+                <NavLink to="/assenze">
                 <li>
-                    Assenze
+                <button>Assenze</button>
                 </li>
+                </NavLink>
+                <NavLink to="/progetti">
                 <li>
-                    Progetti
+                <button>Progetti</button>
                 </li>
-                <li style={{paddingLeft:"8cap"}}>
-                    <span title='About'>
-                    <a style={{fontSize:"3.5pc"}} href="#">🖧</a>
-                    </span>
-                </li>
+                </NavLink>
             </ul>
         </div>
     );
