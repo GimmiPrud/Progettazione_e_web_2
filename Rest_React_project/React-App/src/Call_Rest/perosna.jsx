@@ -28,11 +28,11 @@ const Persona = () => {
       <table>
         <thead>
         <tr>
-            <th className='td'>ID</th>
-            <th className='td'>Nome</th>
-            <th className='td'>Cognome</th>
-            <th className='td'>Posizione</th>
-            <th className='td'>Stipendio</th>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Posizione</th>
+            <th>Stipendio</th>
         </tr>
         </thead>
         {users.map((user) => (

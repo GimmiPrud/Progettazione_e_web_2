@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import "../App.css"
 
 const Assenza = () => {
   const [users, setUsers] = useState([]);
@@ -29,10 +28,10 @@ const Assenza = () => {
         <table>
         <thead>
         <tr>
-            <th className='td'>ID</th>
-            <th className='td'>ID Persona</th>
-            <th className='td'>Tipo malattia</th>
-            <th className='td'>Giorno Assenza</th>
+            <th>ID</th>
+            <th>ID Persona</th>
+            <th>Tipo malattia</th>
+            <th>Giorno Assenza</th>
         </tr>
         </thead>
         {users.map((user) => (
