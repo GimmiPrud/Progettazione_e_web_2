@@ -57,31 +57,3 @@ function App() {
 
 export default App
 
-
-
-
-
-/*
- <ul>
-    <li>
-        <button>
-        <a href="#">Dipendenti</a>
-        </button>
-    </li>
-    <li>
-        <button>
-        <a href="#">Assenze</a>
-        </button>
-    </li>
-    <li>
-        <button>
-        <a href="#">Progetti</a>
-        </button>
-    </li>
-    <li style={{paddingLeft:"8cap"}}>
-        <span title='About'>
-        <a style={{fontSize:"3.5pc"}} href="#">🖧</a>
-        </span>
-    </li>
-</ul>
-*/
