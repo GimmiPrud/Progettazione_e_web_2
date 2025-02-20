@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Navb from './Components/Nav'
 import Content_box from './Components/Content_box'
 import Card from './Components/Card'
 import instagram_logo from './assets/instagram_logo.png';
@@ -11,7 +10,30 @@ function App() {
   return (
     <>
     <div>
-      <Navb></Navb>
+      <nav className='menu' style={{marginLeft:"25%", marginBlock:"3pc", marginRight:"25%"}}>
+          <ul>
+              <li>
+                  <button>
+                  <a href="#">Dipendenti</a>
+                  </button>
+              </li>
+              <li>
+                  <button>
+                  <a href="#">Assenze</a>
+                  </button>
+              </li>
+              <li>
+                  <button>
+                  <a href="#">Progetti</a>
+                  </button>
+              </li>
+              <li style={{paddingLeft:"8cap"}}>
+                  <span title='About'>
+                  <a style={{fontSize:"3.5pc"}} href="#">🖧</a>
+                  </span>
+              </li>
+          </ul>
+      </nav>
       <Content_box></Content_box>
       <section style={{backgroundColor:"grey", padding:"6pc", display:"flex"}}>
         <Card title={"Gestione Database"} img ={"https://images.unsplash.com/photo-1659974708151-e90f42518dd0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGRhdGFiYXNlfGVufDB8fDB8fHww"}></Card>
