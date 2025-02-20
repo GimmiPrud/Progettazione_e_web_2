@@ -26,7 +26,7 @@ const Axios = () => {
     <div>
       <h1 className='font'>ELENCO PROGETTI:</h1>
       <ul>
-      <table className='table'>
+      <table>
       <thead>
         <tr>
             <th className='td'>ID</th>
@@ -36,16 +36,16 @@ const Axios = () => {
             <th className='td'>Fine Progetto</th>
         </tr>
         </thead>
-        {/* {users.map((user) => (
+        {users.map((user) => (
           //<li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
-          <Tabless key={user.id}
-          c0={user.id}
-          c1={user.progetto}
-          c2={user.nome}
-          c3={user.inizio}
-          c4={user.fine}>
-          </Tabless>
-        ))} */}
+          <tr key={user.id}>
+            <td>{user.id}</td>
+            <td>{user.progetto}</td>
+            <td>{user.nome}</td>
+            <td>{user.inizio}</td>
+            <td>{user.fine}</td>
+          </tr>
+        ))}
       </table>
       </ul>
     </div>
