@@ -11,6 +11,6 @@ README PROGETTO DI REACT:
 
 Per avviare database DB.json, digitare il seguente comando:
 
-npx json-server --watch db.json --port [la porta che si vuole utilizzare] es 8001
+npx json-server --watch DB.json --port [la porta che si vuole utilizzare] es 8000
 
 Appena sarà partito il server-json, avviare il comando npm run dev
