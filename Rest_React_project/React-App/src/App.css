@@ -106,18 +106,19 @@ body {
 /* spacing */
 table {
   table-layout: fixed;
-  width: 100%;
   border-collapse: collapse;
   align-items: center;
+  margin:0 35pc;
+  background-color: #484e51;
 }
 
 thead th:nth-child(1) {
-  width: 30%;
+  width: 20%;
   table-layout: fixed;
 }
 
 thead th:nth-child(2) {
-  width: 30%;
+  width: 20%;
   border: 2px solid ;
   table-layout: fixed;
 }
@@ -129,20 +130,20 @@ thead th:nth-child(3) {
 }
 
 thead th:nth-child(4) {
-  width: 40%;
+  width: 30%;
   border: 2px solid ;
   table-layout: fixed;
 }
 
 thead th:nth-child(5) {
-  width: 40%;
+  width: 43%;
   border: 2px solid ;
   table-layout: fixed;
 }
 
 th,
 td {
-  padding: 20px;
+  padding: 10px;
   border: 2px solid ;
   table-layout: fixed;
 }

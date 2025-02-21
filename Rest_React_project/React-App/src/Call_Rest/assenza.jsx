@@ -25,7 +25,7 @@ const Assenza = () => {
 
   return (
     <div>
-      <h1 className='font'>CERTIFICATI DI MALATTIA</h1>
+      <h1 className='font'>CERTIFICATI DI MALATTIA:</h1>
         <table>
         <thead>
         <tr>

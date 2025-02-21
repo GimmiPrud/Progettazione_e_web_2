@@ -25,7 +25,7 @@ function Navb() {
                 </NavLink>
                 <NavLink to="/App">
                 <li>
-                <button style={{backgroundColor:"black", borderRadius:"20pc"}}>Hide</button>
+                <button>Home</button>
                 </li>
                 </NavLink>
             </ul>
