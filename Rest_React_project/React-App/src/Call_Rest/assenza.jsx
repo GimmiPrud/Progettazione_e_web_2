@@ -29,7 +29,6 @@ const Assenza = () => {
         <table>
         <thead>
         <tr>
-            <th>ID</th>
             <th>ID Persona</th>
             <th>Tipo malattia</th>
             <th>Giorno Assenza</th>
@@ -38,7 +37,6 @@ const Assenza = () => {
         {users.map((user) => (
           //<li key={user.id}>{user.persona} - {user.tipo} - {user.giorno}</li>
           <tr key={user.id}>
-            <td>{user.id}</td>
             <td>{user.persona}</td>
             <td>{user.tipo}</td>
             <td>{user.giorno}</td>

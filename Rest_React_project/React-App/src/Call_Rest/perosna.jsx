@@ -28,7 +28,6 @@ const Persona = () => {
       <table>
         <thead>
         <tr>
-            <th>ID</th>
             <th>Nome</th>
             <th>Cognome</th>
             <th>Posizione</th>
@@ -38,7 +37,6 @@ const Persona = () => {
         {users.map((user) => (
           //<li key={user.id}>{user.nome} - {user.cognome} - {user.posizione} - {user.stipendio}</li>
           <tr key={user.id}>
-            <td>{user.id}</td>
             <td>{user.nome}</td>
             <td>{user.cognome}</td>
             <td>{user.posizione}</td>

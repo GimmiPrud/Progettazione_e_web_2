@@ -16,7 +16,7 @@ function App() {
     <>
     <div>
       <Navb></Navb>
-      <div style={{textAlign:"center", paddingBottom:"5pc", border:"2px solid", backgroundColor:"#484e51", margin:"8pc", borderRadius:"2pc"}}>
+      <div style={{textAlign:"center"}}>
       <Routes>
         <Route path='/dipendenti' element={<Persona></Persona>}></Route>
         <Route path='/assenze' element={<Assenza></Assenza>}></Route>

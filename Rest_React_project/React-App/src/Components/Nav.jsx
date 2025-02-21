@@ -29,7 +29,6 @@ function Navb() {
                 </li>
                 </NavLink>
             </ul>
-
         </div>
     );
 }

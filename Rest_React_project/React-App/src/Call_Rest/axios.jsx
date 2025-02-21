@@ -28,7 +28,6 @@ const Axios = () => {
       <table>
       <thead>
         <tr>
-            <th>ID</th>
             <th>ID Progetto</th>
             <th>Nome WP</th>
             <th>Inizio Progetto</th>
@@ -38,7 +37,6 @@ const Axios = () => {
         {users.map((user) => (
           //<li key={user.id}>{user.progetto} - {user.nome} - {user.inizio} - {user.fine}</li>
           <tr key={user.id}>
-            <td>{user.id}</td>
             <td>{user.progetto}</td>
             <td>{user.nome}</td>
             <td>{user.inizio}</td>
