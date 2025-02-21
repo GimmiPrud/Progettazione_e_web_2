@@ -1,3 +1,99 @@
 {
-    
+    "assenza":[
+        {
+            "id": 0,
+            "persona":"Luca Laini",
+            "tipo": "Malattia",
+            "giorno": "2011-06-01"
+        },
+        {
+            "id": 20,
+            "persona":"Alessando Zelli",
+            "tipo": "Malattia",
+            "giorno": "2011-03-06"
+        },
+        {
+            "id": 4,
+            "persona":"mirko Taro",
+            "tipo": "Maternità",
+            "giorno": "2012-12-12"
+        },
+        {
+            "id": 6,
+            "persona":"Alessia Carli",
+            "tipo": "Malattia",
+            "giorno": "2011-10-02"
+        },
+        {
+            "id": 8,
+            "persona":"Luca Lucci",
+            "tipo": "Malattia",
+            "giorno": "2011-05-11"
+        },
+        {
+            "id": 11,
+            "persona":"Sergio Taschini",
+            "tipo": "Chiusura universitaria",
+            "giorno": "2015-25-04"
+        }
+    ],
+
+    "persona":[
+        {
+            "id": 0,
+            "nome": "Anna",
+            "cognome": "Lucca",
+            "posizione":"Ricercatore",
+            "stipendio": 45500.3
+        },
+        {
+            "id": 1,
+            "nome": "Lorenzo",
+            "cognome": "Zarro",
+            "posizione":"Ricercatore",
+            "stipendio": 500000.5
+        },
+        {
+            "id": 2,
+            "nome": "Sara",
+            "cognome": "Lanni",
+            "posizione":"Ricercatore",
+            "stipendio": 45500.3
+        },
+        {
+            "id": 3,
+            "nome": "Giacomo",
+            "cognome": "Panella",
+            "posizione":"Ricercatore",
+            "stipendio": 40000
+        },
+        {
+            "id": 4,
+            "nome": "Andrea",
+            "cognome": "Silvi",
+            "posizione":"Professore Associato",
+            "stipendio": 35500
+        },
+        {
+            "id": 5,
+            "nome": "Federico",
+            "cognome": "Belleggi",
+            "posizione":"Ricercatore",
+            "stipendio": 29000.2
+        },
+        {
+            "id": 6,
+            "nome": "Damiano",
+            "cognome": "Falciani",
+            "posizione":"Professore Associato",
+            "stipendio": 500000.6
+        }
+    ],
+
+    "wp":[
+        {
+
+        }
+    ]
+
 }
