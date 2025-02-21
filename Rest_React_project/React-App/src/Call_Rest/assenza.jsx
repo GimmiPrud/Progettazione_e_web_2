@@ -9,7 +9,7 @@ const Assenza = () => {
 
   useEffect(() => {
     axios
-      .get('http://127.0.0.1:5004/2')
+      .get('http://localhost:8000/assenza')
       .then((response) => {
         setUsers(response.data);  
         setLoading(false);         
