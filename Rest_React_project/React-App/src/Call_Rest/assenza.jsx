@@ -22,7 +22,7 @@ const Assenza = () => {
 
   if (loading) return <p>Caricamento...</p>;
   if (error) return <p>Errore: {error}</p>;
-
+  
   return (
     <div>
       <h1 className='font'>CERTIFICATI DI MALATTIA:</h1>
