@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Content_box from './Components/Content_box'
 import Card from './Components/Card'
