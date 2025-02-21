@@ -1,10 +1,9 @@
 // import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 
 function Navb() {
-    const navigate = useNavigate()
 
     return (
         <div className="navbar">

@@ -32,7 +32,7 @@ function App() {
       </section>
       <section style={{padding:"5pc", display:"inline-flex"}}>
         <h1 style={{paddingLeft:"10pc", color:"lightgrey"}}>Le nostre sedi:</h1>
-        <ul style={{listStyleType:"circle",color:"lightgrey", paddingTop:"2pc"}}>
+        <ul style={{listStyleType:"none",color:"lightgrey", paddingTop:"2pc"}}>
           <li><h2>Milano</h2></li>
           <li><h2>Roma</h2></li>
           <li><h2>Perugia</h2></li>

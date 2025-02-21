@@ -25,7 +25,6 @@ const Axios = () => {
   return (
     <div>
       <h1 className='font'>ELENCO PROGETTI:</h1>
-      <ul>
       <table>
       <thead>
         <tr>
@@ -47,7 +46,6 @@ const Axios = () => {
           </tr>
         ))}
       </table>
-      </ul>
     </div>
   );
 };
