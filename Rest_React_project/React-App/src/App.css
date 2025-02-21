@@ -40,6 +40,9 @@ button{
   position: relative;
   transition: 0.5s;
 }
+button:active{
+  transform: translate(8px);
+}
 
 button:after{
   content: '🔎';
@@ -132,7 +135,7 @@ thead th:nth-child(4) {
 }
 
 thead th:nth-child(5) {
-  width: 30%;
+  width: 40%;
   border: 2px solid ;
   table-layout: fixed;
 }

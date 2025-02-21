@@ -23,7 +23,13 @@ function Navb() {
                 <button>Progetti</button>
                 </li>
                 </NavLink>
+                <NavLink to="/App">
+                <li>
+                <button style={{}}>hide table</button>
+                </li>
+                </NavLink>
             </ul>
+
         </div>
     );
 }
