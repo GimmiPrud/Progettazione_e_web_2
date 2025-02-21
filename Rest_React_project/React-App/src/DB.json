@@ -92,7 +92,53 @@
 
     "wp":[
         {
-
+            "progetto":0,
+            "id":0,
+            "nome":"WP1",
+            "inizio":"2000-01-01",
+            "fine":"2000-12-31"
+        },
+        {
+            "progetto":0,
+            "id":1,
+            "nome":"WP2",
+            "inizio":"2000-01-01",
+            "fine":"2000-12-31"
+        },
+        {
+            "progetto":0,
+            "id":2,
+            "nome":"WP3",
+            "inizio":"2000-01-01",
+            "fine":"2000-12-31"
+        },
+        {
+            "progetto":1,
+            "id":0,
+            "nome":"Wwp",
+            "inizio":"2011-01-03",
+            "fine":"2011-12-15"
+        },
+        {
+            "progetto":2,
+            "id":3,
+            "nome":"Dissemination",
+            "inizio":"2012-04-04",
+            "fine":"2013-10-10"
+        },
+        {
+            "progetto":3,
+            "id":1,
+            "nome":"Main Activity",
+            "inizio":"2002-05-03",
+            "fine":"2002-12-31"
+        },
+        {
+            "progetto":4,
+            "id":5,
+            "nome":"State of the Art",
+            "inizio":"2023-12-04",
+            "fine":"2024-04-28"
         }
     ]
 
