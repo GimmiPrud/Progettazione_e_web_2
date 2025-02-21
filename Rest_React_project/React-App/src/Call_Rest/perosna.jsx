@@ -26,7 +26,7 @@ const Persona = () => {
   return (
     <div>
       <h1 className='font'>ANAGRAFICA DIPENDENTE:</h1>
-      <table style={{marginLeft:"46pc"}}>
+      <table style={{marginLeft:"41pc"}}>
         <thead>
         <tr>
             <th>Nome</th>

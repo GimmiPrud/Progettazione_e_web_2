@@ -26,7 +26,7 @@ const Axios = () => {
   return (
     <div>
       <h1 className='font'>ELENCO PROGETTI:</h1>
-      <table>
+      <table style={{marginLeft:"37pc"}}>
       <thead>
         <tr>
             <th>ID Progetto</th>
