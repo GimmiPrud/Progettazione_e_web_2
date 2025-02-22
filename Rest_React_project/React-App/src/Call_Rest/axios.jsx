@@ -9,7 +9,7 @@ const Axios = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:8000/wp')
+      .get('http://localhost:3000/wp')
       .then((response) => {
         setUsers(response.data);  
         setLoading(false);         

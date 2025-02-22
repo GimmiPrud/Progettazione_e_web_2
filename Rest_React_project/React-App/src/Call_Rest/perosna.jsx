@@ -9,7 +9,7 @@ const Persona = () => {
 
   useEffect(() => {
     axios
-      .get('http://localhost:8000/persona')
+      .get('http://localhost:3000/persona')
       .then((response) => {
         setUsers(response.data);  
         setLoading(false);         
